@@ -68,8 +68,8 @@ int main(int argc, char* argv[]){
     }
     char* senderIPAddr;
     char* targetIPAddr;
-    senderIPAddr = argv[1];// 172.20.10.2
-    targetIPAddr = argv[2];// 172.20.10.1
+    senderIPAddr = argv[1];// 192.168.10.2
+    targetIPAddr = argv[2];// 192.168.10.1
     
     
     pcap_if_t *alldevs;
