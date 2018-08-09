@@ -11,7 +11,7 @@
 #include <netinet/in.h>
 #include <string.h>
 #include <iostream>
-#pragma pack(1)  // ???????? if it is imported, the code operates well, why?
+#pragma pack(1)  // if it is not imported, the char type is allocated as 4 bytes
 
 struct ether_header
 {
